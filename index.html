@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VRFSCam+</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-image: url('https://i.ibb.co/S4WYbtn6/image.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'League Spartan', sans-serif;
+      color: white;
+      margin: 0;
+    }
+    .custom-heading {
+      font-size: 84px;
+      margin: 0; /* Remove default margin */
+    }
+  </style>
+</head>
+<body class="w-full h-screen flex flex-col justify-start items-center px-6 py-0 box-border">
+
+  <!-- Header -->
+  <div class="w-full text-center">
+    <h2 class="custom-heading font-bold leading-tight">The Most Powerful VRFS Camera</h2>
+  </div>
+
+  <!-- Main Content -->
+  <div class="flex flex-col lg:flex-row items-start justify-center gap-12 flex-grow pt-0">
+    <!-- Video -->
+    <video width="960" height="540" class="rounded-lg shadow-xl max-w-full -mt-5" controls>
+      <source src="your-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Keybinds -->
+    <img
+      src="https://i.ibb.co/HRBfPtr/VRFSCam-Binds.png"
+      alt="Keybinds"
+      width="540"
+      height="655"
+      class="rounded-lg shadow-lg object-cover"
+    />
+  </div>
+
+  <!-- Buttons -->
+  <div class="flex gap-10 mt-10 flex-wrap justify-center">
+    <a href="https://gofile.io/d/vS7dQE" target="_blank">
+      <img
+        src="https://cdn.intheloop.io/wp-content/uploads/2020/08/windows-button.png"
+        alt="Download"
+        width="320"
+        height="100"
+        class="hover:opacity-90 transition rounded"
+      />
+    </a>
+    <a href="https://github.com/wuzyazy/VRFSCam/tree/0.4" target="_blank">
+      <img
+        src="https://raw.githubusercontent.com/R3ITOSv87/Intune-Android-QR-Wizard/48eeaedbf64f0ba78319400f88962879cd2ca128/png/github.png"
+        alt="GitHub"
+        width="320"
+        height="100"
+        class="hover:opacity-90 transition rounded"
+      />
+    </a>
+  </div>
+
+</body>
+</html>
